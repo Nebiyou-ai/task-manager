@@ -1,0 +1,20 @@
+# Use Node.js 20 as the base image
+FROM node:20-alpine
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy package files first (for better caching)
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy all source code
+COPY . .
+
+# Make the entrypoint executable
+RUN chmod +x index.js
+
+# Default command
+CMD ["node", "index.js"]
