@@ -1,28 +1,19 @@
 [
   {
-    "task": "Learn Git branches",
-    "completed": false
-  },
-  {
-    "task": "Learn Git branches",
-    "completed": false
-  },
-  {
-    "id": 1784446685341,
-    "text": "Learn Git branches",
-    "completed": false,
-    "createdAt": "2026-07-19T07:38:05.341Z"
-  },
-  {
-    "id": 1784446859642,
-    "text": "Learn Git branches",
-    "completed": false,
-    "createdAt": "2026-07-19T07:40:59.642Z"
-  },
-  {
     "id": 1784545817635,
     "text": "Learn Git branches",
-    "completed": false,
+    "completed": true,
     "createdAt": "2026-07-20T11:10:17.635Z"
+  },
+  {
+    "id": 1784553794965,
+    "text": "Learn boxing",
+    "completed": true,
+    "createdAt": "2026-07-20T13:23:14.966Z"
+  },
+  {
+    "id": 1785098840744,
+    "text": "buy a car",
+    "completed": false
   }
 ]
